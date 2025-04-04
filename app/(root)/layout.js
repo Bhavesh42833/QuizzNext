@@ -1,0 +1,14 @@
+export const metadata = {
+  title: "Quiz App",
+  description: "Empowering Minds",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
